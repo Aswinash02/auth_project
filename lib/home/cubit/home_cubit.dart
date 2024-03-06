@@ -4,7 +4,6 @@ import 'package:firebase_integration/model/user_model.dart';
 import 'package:meta/meta.dart';
 
 part 'home_state.dart';
-
 class HomeCubit extends Cubit<HomeState> {
   HomeCubit() : super(HomeInitial());
 
